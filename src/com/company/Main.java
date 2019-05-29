@@ -13,7 +13,7 @@ public class Main {
         int[] helloIntArray = new int[hello.length()];
 
         // инициализация массива значениями ascii
-        for (int i = 0; i < helloArray.length; i++) {
+        for (int i = 0;  i < helloArray.length; i++) {
           helloIntArray[i] = (int) helloArray[i];       // добавляем в массив значение ascii для символа
         }
 
